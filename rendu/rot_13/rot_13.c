@@ -11,7 +11,7 @@ int main(int ac, char *av[]){
 	while(r[i]){
 		if(r[i] >= 'a' && r[i] <= 'm' || r[i] >= 'A' && r[i] <= 'M'){
 			ft(r[i] + 13);
-		}else if(r[i] >= 'n' && r[i] < 'z' || r[i] >= 'N' && r[i] < 'Z'){
+		}else if(r[i] >= 'n' && r[i] <= 'z' || r[i] >= 'N' && r[i] <= 'Z'){
 			ft(r[i] - 13);
 		}else{
 			ft(r[i]);
